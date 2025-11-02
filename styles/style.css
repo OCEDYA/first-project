@@ -96,7 +96,7 @@ button {
     border:1px solid white;
 }
 
-ul.div{
+ul.div {
     display: flex;
     list-style-type:none;
  }
@@ -139,10 +139,10 @@ article.st1::before {
     inset: 0;
     z-index: 1;
     position: absolute;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
 }
 
-h3.h31 {
+div.h31 {
     padding:0;
     margin: 0;
     margin-top:48px;
@@ -150,14 +150,14 @@ h3.h31 {
     padding-bottom:274px;
 }
 
-p.p{
+p.p {
     position: absolute;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
 }
 
-h3.h32 {
+div.h32 {
     padding:0;
     margin: 0;
     margin-left:40px;
@@ -171,7 +171,7 @@ p.p2 {
     line-height: 120%;
 }
 
-h3.h33 {
+div.h33 {
     padding:0;
     margin: 0;
     margin-top:48px;
@@ -205,7 +205,7 @@ article.st2::before {
     inset: 0;
     z-index: 1;
     position: absolute;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
 }
 
 h3, p {
@@ -232,7 +232,7 @@ article.st3::before {
     inset: 0;
     z-index: 1;
     position: absolute;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -263,7 +263,7 @@ section.about {
 }
 
 div.flip {
-    align-items:center;         
+    align-items:center;
     justify-content:left;
     position: relative;
     max-width: 240px;
@@ -281,7 +281,7 @@ img.column {
 
 div.crug {
     height: 240px;
-    width: 240px;;
+    width: 240px;
     background-color:black ;
     border-radius: 50%;
     position: relative;
@@ -333,7 +333,7 @@ header img {
     width: 148px;
 }
 
-header ul{
+header ul {
     list-style-type: circle;
     display: flex;
     text-transform: lowercase;
@@ -394,10 +394,8 @@ p.passive {
 
 
 ul.niz {
-    padding-top: 1px;
-    padding-right: 177.5px;
-    padding-bottom: 115px;
-    padding-left:154.03px; 
+    padding: 1px 177.5px 115px 154.03px;
+    list-style-type: none;
 }
 
 address.adr {
@@ -429,6 +427,7 @@ ul.img {
   margin: 0;
   padding-bottom:131px;
   margin-right: 50px;
+  list-style-type: none;
 }
 
 ul.img img {
