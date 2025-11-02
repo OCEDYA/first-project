@@ -9,7 +9,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,8 +84,6 @@ button {
    position: absolute;
     right: 0;
     bottom: 0;
-
-    padding:0;
     margin:0;
     font-weight: 500;
     color: white;
@@ -94,7 +92,6 @@ button {
     cursor: pointer;
     letter-spacing:  0%;
     text-transform: uppercase;
-    font-weight: 500;
     font-size: 22px;
     border:1px solid white;
 }
@@ -102,7 +99,7 @@ button {
 ul.div{
     display: flex;
     list-style-type:none;
-}
+ }
 
 div.lots {
     position: relative;
@@ -114,6 +111,7 @@ div.lots {
 }
 
 h2 {
+    margin:0;
     font-weight: 700;
     font-style: 'bold';
     font-size: 40px;
@@ -136,7 +134,7 @@ article.st1 {
     overflow: hidden;
 }
 
-article.st1::before{
+article.st1::before {
     content: "";
     inset: 0;
     z-index: 1;
@@ -167,7 +165,7 @@ h3.h32 {
     padding-bottom: 30px;
 }
 
-p.p2{
+p.p2 {
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -202,7 +200,7 @@ article.st2 {
     overflow: hidden;
 }
 
-article.st2::before{
+article.st2::before {
     content: "";
     inset: 0;
     z-index: 1;
@@ -229,7 +227,7 @@ article.st3 {
     overflow: hidden;
 }
 
-article.st3::before{
+article.st3::before {
     content: "";
     inset: 0;
     z-index: 1;
@@ -303,10 +301,6 @@ div.Lots {
     margin: 0;
     padding: 0;
     margin-left: 64px;
-}
-
-h2 {
-    margin:0;
 }
 
 div.last {
@@ -386,13 +380,13 @@ address.address_top {
     padding-right: 50px;
     color:black;
 }
-a.active{
+a.active {
     text-decoration: none;
 }
 
 p.under {
     text-decoration: underline;
-}
+    }
 
 p.passive {
     text-decoration: none;
@@ -404,10 +398,6 @@ ul.niz {
     padding-right: 177.5px;
     padding-bottom: 115px;
     padding-left:154.03px; 
-}
-
-header {
-    height: 293px;
 }
 
 address.adr {
