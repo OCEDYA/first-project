@@ -19,7 +19,7 @@ header{
 div.cover {
     position: relative;
     height: 757px;
-    background-image: url(back1.jpg);
+    background-image: url(images/cover.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -30,7 +30,7 @@ div.cover::before {
     inset: 0;
     z-index: 1;
     position: absolute;
-    background: rgba(0, 0, 0, 0.6); /* затемнение */
+    background: rgba(0, 0, 0, 0.6);
 }
 
 h1,div.description {
@@ -66,47 +66,51 @@ span.span3 {
 
 div.description {
     display: flex;
-    margin: 0;
+    position: relative;
+    align-items: center;
     padding: 0;
+    margin:0px 50px 50px 50px
 }
 
 p.xz {
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
-    margin-left:50px;
     word-spacing: 90%;
     padding-top: 61px;
-    font-size: medium;
 }
 
 button {
+   position: absolute;
+    right: 0;
+    bottom: 0;
+
     padding:0;
     margin:0;
     font-weight: 500;
     color: white;
     background: transparent;
-    border: 1px solid white;
-    padding: 12px 30px;
+    padding: 12px 32px 11px 31px;
     cursor: pointer;
     letter-spacing:  0%;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 22px;
-}
-
-div.lots {
-    height: 723px;
+    border:1px solid white;
 }
 
 ul.div{
     display: flex;
     list-style-type:none;
-    padding-bottom: 30px;
 }
 
 div.lots {
+    position: relative;
+    height: 723px;
     margin-top:180px;
+    margin-left:24px;
+    margin-right: 24px;
+    border: 1px solid black;
 }
 
 h2 {
@@ -121,7 +125,7 @@ h2 {
 
 article.st1 {
     position: relative;
-    background-image: url(pr1.jpg);
+    background-image: url(images/card-lot-01.jpg);
     width: 334px;
     height: 596px;
     margin:0;
@@ -130,7 +134,6 @@ article.st1 {
     color:white;
     background-size: cover;
     overflow: hidden;
-    margin-left: 24px;
 }
 
 article.st1::before{
@@ -188,7 +191,7 @@ p.p3 {
 
 article.st2 {
     position: relative;
-    background-image: url(pr2.png);
+    background-image: url(images/card-lot-02.jpg);
     width: 334px;
     height: 596px;
     margin:0;
@@ -215,7 +218,7 @@ h3, p {
 
 article.st3 {
     position: relative;
-    background-image: url(pr3.jpg);
+    background-image: url(images/card-lot-03.jpg);
     width: 334px;
     height: 596px;
     margin:0;
@@ -224,7 +227,6 @@ article.st3 {
     color:white;
     background-size: cover;
     overflow: hidden;
-    margin-right: 24px;
 }
 
 article.st3::before{
@@ -254,25 +256,76 @@ p.p,p.p1,p.p2 {
 
 section.about {
     height: 595px;
-    max-width: 800px;
     width: 1052px;
     margin: 0 auto;
-    padding: 60px 20px;
-    padding-left:72px;
+    margin-top:120px;
+    margin-bottom: 180px;
+    border:3px solid black;
+    display: flex;
 }
 
 div.flip {
-    display: flex;
     align-items:center;         
-    justify-content:left;                
-    margin-bottom: 60px;
-}
-div.yr {
-    max-width: 600px;
-    margin: 20px auto;
+    justify-content:left;
+    position: relative;
+    max-width: 240px;
+    max-height: 240px;
 }
 
 img.column {
+    width: 148px;
+    height: 114px;
+    z-index: 2;
+    position:absolute;
+    margin-top:99px;
+    margin-left:93.48px;
+}
+
+div.crug {
+    height: 240px;
+    width: 240px;;
+    background-color:black ;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    margin-top: 35px;
+    margin-left:47px;
+}
+
+div.yr {
+    width: 693px;
+    height: 449px;
+    margin-top:133px;
+    margin-left:117px;
+}
+
+div.Lots {
+    margin: 0;
+    padding: 0;
+    margin-left: 64px;
+}
+
+h2 {
+    margin:0;
+}
+
+div.last {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: 'Regular';
+}
+
+p.last1 {
+    padding-top:74px;
+    padding-bottom:30px;
+    width: 688px;
+    height: 120px;
+}
+
+p.last2 {
+    width: 693px;
+    height: 168px;
 }
 
 footer {
@@ -305,6 +358,9 @@ header ul li a,footer ul p a {
 }
 
 a.black {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-transform: lowercase;
     color: black;
     padding-left:40px;
@@ -342,10 +398,6 @@ p.passive {
     text-decoration: none;
 }
 
-a.image2 {
-    padding-left:48px;
-    padding-right: 48px;
-}
 
 ul.niz {
     padding-top: 1px;
@@ -371,15 +423,25 @@ a.logo {
     padding-bottom: 96px;
 }
 
-ul.img {
-    padding-bottom:131px;
-    padding-right: 50px;
-}
-
 address.address_bottom {
     padding-bottom: 82px;
     padding-left:50px;
     font-weight: 400;
     font-style: normal;
     color:black;
+}
+ul.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  padding-bottom:131px;
+  margin-right: 50px;
+}
+
+ul.img img {
+  width: 40px;
+  height: 40px;
 }
