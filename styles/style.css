@@ -114,7 +114,6 @@ div.lots {
     margin-top:180px;
     margin-left:24px;
     margin-right: 24px;
-    border: 1px solid black;
 }
 
 h2 {
@@ -155,6 +154,13 @@ div.h31 {
     margin-top:48px;
     margin-left:40px;
     padding-bottom:274px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-style: solid;
+    letter-spacing: 0%;
+    text-decoration: underline;
 }
 
 p.p {
@@ -170,6 +176,13 @@ div.h32 {
     margin-left:40px;
     margin-top:48px;
     padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-style: solid;
+    letter-spacing: 0%;
+    text-decoration: underline;
 }
 
 p.p2 {
@@ -184,6 +197,13 @@ div.h33 {
     margin-top:48px;
     margin-left:40px;
     padding-bottom: 126px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-style: solid;
+    letter-spacing: 0%;
+    text-decoration: underline;
 }
 
 p.p3 {
@@ -216,9 +236,14 @@ article.st2::before {
 }
 
 h3, p {
+    text-decoration-line: none;
     z-index: 2;
     filter: brightness(100%);
     position: relative;
+}
+
+a.nodec {
+    text-decoration: none;
 }
 
 article.st3 {
