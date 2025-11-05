@@ -48,7 +48,7 @@ h1,div.description {
 
 .cover h1 span {
   display: flex;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   line-height: 1.4;
   font-size: 100px;
   font-weight: 700;
@@ -56,17 +56,17 @@ h1,div.description {
 }
 
 span.coverFirstWord {
-    margin-top:165px;
+    margin-top:152px;
     margin-left:50px;
 }
 
 span.coverSecondWord {
-    margin-top:20px;
+    margin-top:-4px;
     margin-left:380.5px;
 }
 
 span.coverThirdWord {
-    margin-top:20px;
+    margin-top:-4px;
     margin-left:663px;
 }
 
@@ -279,7 +279,6 @@ h3 {
 p.firstLotsParagraph,p.secondLotsParagraph {
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 
@@ -323,8 +322,8 @@ div.circle {
 div.about {
     width: 693px;
     height: 449px;
-    margin-top:133px;
-    margin-left:117px;
+    margin-top:138px;
+    margin-left:55px;
 }
 
 div.lotsIndent {
@@ -334,6 +333,7 @@ div.lotsIndent {
 }
 
 div.generalAuctionParagraph {
+    margin-left:58px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -392,10 +392,7 @@ a.seeMore {
     font-weight: 400;
 }
 
-header ul li a:hover {
-    color: red;
-}
-footer ul p a:hover {
+header ul li a:hover,footer ul p a:hover {
     color: red;
 }
 
@@ -408,14 +405,6 @@ address.addressTop {
     padding-right: 50px;
     color:black;
 }
-a.homeTop {
-    text-decoration: none;
-}
-
-p.passive {
-    text-decoration: none;
-}
-
 
 ul.navigatorBottom {
     padding: 1px 177.5px 115px 154.03px;
